@@ -1,0 +1,12 @@
+@media (min-width: 992px) {
+
+    .carousel-indicators {
+        flex-direction: column;
+        left: auto;
+        margin-right: 2%;
+        bottom: 16rem;
+
+
+    }
+
+}

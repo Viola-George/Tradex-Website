@@ -1,0 +1,86 @@
+/* 
+*** Rest Style
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.full-size{
+  height:100% !important;
+  width:100% !important;
+  height: 20vh  !important;
+  width: 900px;
+}
+
+/* section .main-section{ width: 100%; padding: 20px 0;  background: #252525;} */
+
+
+/* 
+*** Global Style
+*/
+
+.list-style-none {
+  list-style: none;
+}
+
+.bg-primary-#0d6efd {
+  background-color: #0c65ed;
+}
+.cont{
+  background-image: url("../images/slider1.jpg");
+ 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+
+}
+
+#options
+{
+    position: fixed;
+    left: 0;
+    top: 150px;
+    z-index: 9999;
+}
+#options .color-box
+{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+#options .options-box
+{
+    background-color: #ccc;
+    padding: 15px;
+    border: solid #0d6efd 3px;
+}
+#options i
+{
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+
+}
+#options img
+{
+    width: 35px;
+    cursor: pointer;
+
+}
+.btnUp
+{
+    position: fixed;
+    bottom: 28px;
+    right: 29px;
+    height: 37px;
+    width: 41px;
+}
